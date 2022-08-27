@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+</head>
+  <body background="https://lh3.googleusercontent.com/FwpuNZ_Ln2rRYItKCqg08nu7yAuBkD9l6wytlJw9_YtU1GfIJE4hsz7gQBmoumCRnhOPxDkLYvlX7Zpknl6zbDoyGoT-6oZRW0-dn5cSBDvW94-uMoLtu1AA4kmxnh3vm5dTmchvidrL53GWmQZn8PwscrYErsu16KsRNy6Ip31y5AH5zxFAGpsRonqFDyFymFTZuaE_4AuTl6UPGg4efkXITBsSKo_i-nFk_xWDKN5041gJo2wQnVaFLZA7K9znsWARXRB1vMjGyee88tuopNnk9H5WTzOJDNPaTDBOp0chBEhiFL_rxg9XWT9oPDQOJwOCbG1HLGMGC1tmgv3GnuN9aJfA3X_gDEUFkDKbt1293H6C1cwo4FNYiSabR6xzvxpsAbL0UldmYx1JfMyfr0nPmF8LzxL8H7xr7XngNTha2LT_5gb7TAHY-IpVi8Pt0E6lPHuj6pZGrJ2E6az-JvCDlwRrYQalTaIStUhtjxGaWztARvkw5ggpkC0CXgFZiDkw5bYfDRMsbt6uT4LJczDUj3JnKeYVyjpSH3kuTD-x4tbObkpFGUCPF_RxDbG0cTdJt9jSyvFGKVHtVX7FhNxGkevXSN7ryJlUwSBsfP7wYyjJS_9mJH4D3QmTXO8JaTcoLTNglu8ZafKxe452EYviz22g6dV11YBo6lWWpyfCaoXdzx6SAdGMvNipcu2u3tF5Obd6rcnioNIsDuNfPEilE1ubXfy9vi6OD2W-qz2ZmWS5c2DxlehWRVU=w1690-h950-no?authuser=0" text="black"><br><br>
+
+    <form action="/login" method="post">
+
+        <br><br><p style=" font-style: italic; font-size: xxx-large "   align="center">{{ Login }}</p>
+      <p align="center" style=" font-style: inherit; font-size: xx-large ">Username: <input style="height: 20px" type="text" name="username"  /> </p>
+      <p align="center" style="font-size: xx-large; font-style: inherit">Password: <input style="height: 20px" type="password" name="password"/> </p>
+        <p align="center"  ><input style="height: 30px; width: 100px; font-size: medium " type="submit" value="Login" > </p>
+
+    </form>
+  </body>
+</html>
